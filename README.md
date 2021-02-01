@@ -19,3 +19,13 @@
         <td>Berikut adalah tampilan Sign Up </td>
     </tr>
 </table>
+
+![sign up](https://user-images.githubusercontent.com/76817689/106443966-0205a980-6432-11eb-8b78-b10d7ebedb66.png)
+
+<table>
+    <tr>
+        <td>Berikut adalah tampilan Home </td>
+    </tr>
+</table>
+
+![Home](https://user-images.githubusercontent.com/76817689/106444089-22cdff00-6432-11eb-9155-a265ef291974.png)
