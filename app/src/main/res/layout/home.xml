@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff7b54"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="309dp"
+        android:layout_height="78dp"
+        android:background="#FFFFFF">
+
+        <SearchView
+            android:layout_width="76dp"
+            android:layout_height="76dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="238dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Gratis ongkir Rp0"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="588dp"
+        android:background="#FFFFFF" />
+
+    <ImageView
+        android:layout_marginTop="588dp"
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/like" />
+
+    <ImageButton
+        android:layout_marginTop="500dp"
+        android:id="@+id/imageButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/like" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</LinearLayout>
